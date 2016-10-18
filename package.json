@@ -1,22 +1,23 @@
 {
-  "name": "angularjs-datetime-picker",
-  "version": "0.1.20",
-  "description": "Very Lightweight AngularJS DateTime Picker Without Using jQuery, bootStrap, or moment",
-  "main": "angularjs-datetime-picker.js",
+  "name": "hesperides-datetime-picker",
+  "version": "0.1.21",
+  "description": "Very Lightweight AngularJS DateTime Picker Without Using jQuery, bootStrap, or moment. This is taken from https://github.com/kineticsocial/angularjs-datetime-picker",
+  "main": "hesperides-datetime-picker.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kineticsocial/angularjs-datetime-picker.git"
+    "url": "https://github.com/stidiovip/hesperides-datetime-picker"
   },
   "keywords": [
     "angularjs",
     "directive",
     "date",
-    "datetime"
+    "datetime",
+    "hesperides"
   ],
-  "author": "Allen Kim <allenhwkim@gmail.com>",
+  "author": "Tidiane SIDIBE <stidiovip@yahoo.fr>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kineticsocial/angularjs-datetime-picker/issues"
@@ -29,6 +30,6 @@
     "gulp-strip-debug": "^1.0.2",
     "gulp-uglify": "^1.2.0",
     "run-sequence": "^1.1.0"
-  }
-  "homepage": "https://github.com/kineticsocial/angularjs-datetime-picker"
+  },
+  "homepage": "https://github.com/stidiovip/hesperides-datetime-picker"
 }
