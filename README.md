@@ -5,7 +5,7 @@ No JQuery, No Bootstrap, Just AngularJS (ver. 1.3+)
 
 This is taken from https://github.com/kineticsocial/angularjs-datetime-picker
 
-As the main project seems nomore maintained, some improvements are done on it for [hesperides](https://github.com/voyages-sncf-technologies/hesperides-gui) project.
+As the main project seems no more maintained, some improvements are done on it for [hesperides](https://github.com/voyages-sncf-technologies/hesperides-gui) project.
 
 You can use this for your needs.
 
