@@ -5,6 +5,10 @@ No JQuery, No Bootstrap, Just AngularJS (ver. 1.3+)
 
 This is taken from https://github.com/kineticsocial/angularjs-datetime-picker
 
+As the main project seems nomore maintained, some improvements are done on it for [hesperides](https://github.com/voyages-sncf-technologies/hesperides-gui) project.
+
+You can use this for your needs.
+
 [DEMO](https://rawgit.com/kineticsocial/angularjs-datetime-picker/master/index.html)
 [![Imgur](http://i.imgur.com/UJfYMN6.png?1)](https://rawgit.com/kineticsocial/angularjs-datetime-picker/master/index.html)
 
@@ -13,7 +17,7 @@ To Get Started
 
 For Bower users,
 
-  `$ bower install angularjs-datetime-picker`
+  `$ bower install hesperides-datetime-picker`
 
 1. Include `angularjs-datetime-picker.js` and `angularjs-datetime-picker.css`
 
@@ -39,7 +43,7 @@ Attributes
   -  minute: optional, minute selected, 59
   -  date-only: optional, if set, timepicker will be hidden
   -  future-only: optional, if set, forces validation errors on dates earlier than now
-  -  bind-event: optional, if set, the picket will show when that javascript event occurs, default is 'click' event.
+  -  bind-event: optional, if set, the picker will show when that javascript event occurs, default is 'click' event.
 
 Examples
 --------
@@ -55,3 +59,5 @@ Examples
     <input ng-model="date4" datetime-picker hour="23" minute='59'/>
 
     <input ng-model="date5" datetime-picker date-format="yyyy-MM-dd HH:mm:ss" year="2014" month="12" day="31" />
+    
+    <input ng-model="date5" datetime-picker date-format="yyyy-MM-dd HH:mm:ss" year="2014" month="12" day="31" bind-event="dblclick"/>
