@@ -77,10 +77,10 @@
         datetimePickerEl.style.left= (bcr.left + window.scrollX) + 'px';
       }
 
-      if (bcr.top < 300 || window.innerHeight - bcr.bottom > 300) {
+      if (bcr.top < 330 || window.innerHeight - bcr.bottom > 330) {
         datetimePickerEl.style.top = (bcr.bottom + window.scrollY) + 'px';
       } else {
-        datetimePickerEl.style.top = (bcr.top - datePickerElBcr.height + window.scrollY) + 'px';
+        datetimePickerEl.style.top = (bcr.top - datePickerElBcr.height - 250 + window.scrollY) + 'px';
       }
 
       $document[0].body.addEventListener('click', this.closeDatetimePicker);
@@ -129,7 +129,7 @@
     '  <div class="adp-days" id="adp-time"> ',
     '    <label class="timeLabel">Time:</label> <span class="timeValue">{{("0"+inputHour).slice(-2)}} : {{("0"+inputMinute).slice(-2)}}</span><br/>',
     '    <label class="hourLabel">Hour:</label> <input class="hourInput" type="range" min="0" max="23" ng-model="inputHour" ng-change="updateNgModel()" />',
-    '    <label class="minutesLabel">Min:</label> <input class="minutesInput" type="range" min="0" max="59" ng-model="inputMinute"  ng-change="updateNgModel()"/> ',
+    '    <label class="minutesLabel">Min.:</label> <input class="minutesInput" type="range" min="0" max="59" ng-model="inputMinute"  ng-change="updateNgModel()"/> ',
     '  </div> ',
     '</div>'].join("\n");
 

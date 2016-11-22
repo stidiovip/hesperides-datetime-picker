@@ -1,6 +1,6 @@
 {
   "name": "hesperides-datetime-picker",
-  "version": "0.1.21",
+  "version": "0.1.24",
   "description": "Very Lightweight AngularJS DateTime Picker Without Using jQuery, bootStrap, or moment. This is taken from https://github.com/kineticsocial/angularjs-datetime-picker",
   "main": "hesperides-datetime-picker.js",
   "scripts": {
